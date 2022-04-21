@@ -25,7 +25,7 @@ public class Main {
 
         CreditCard creditCard3 = new CreditCard();
         creditCard3.cardNumber = "4226 6557 0006 6787";
-        creditCard3.owner = "П@здун Песков";
+        creditCard3.owner = "PiZdoon Peskov";
         creditCard3.type = "МИР";
         creditCard3.printInfo();
     }

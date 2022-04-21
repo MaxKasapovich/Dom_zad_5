@@ -10,13 +10,13 @@ public class CreditCard {
         switch (type) {
             case "VISA":
             case "MASTERCARD":
-                System.out.println(" Ув. " + owner + " поздравляем, вы используете нормальную карту");
+                System.out.println("Dear " + owner + " congratulations, you are using a normal card");
                 break;
             case "МИР":
-                System.out.println(owner + "пошел ты на х#й вместе со своим русским кораблем!!");
+                System.out.println(owner + " fuck you and your russian ship!!");
                 break;
             default:
-                System.out.println("Неизвестный тип карты: " + type);
+                System.out.println("Unknown card type: " + type);
         }
     }
 }
